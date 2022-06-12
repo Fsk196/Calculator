@@ -12,7 +12,7 @@
         })
     });
 
-    equal.addEventListener('click', function(e) {
+    equal.addEventListener('click', function(event) {
         if(screen.value === "") {
             screen.value = "Please Enter";
         }else{
